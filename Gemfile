@@ -21,6 +21,7 @@ gem 'bootstrap'
 gem 'figaro'
 gem 'pry'
 gem 'bcrypt'
+gem 'active_model_serializers'
 
 group :development, :test do
   gem 'byebug'
