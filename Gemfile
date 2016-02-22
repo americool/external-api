@@ -20,6 +20,7 @@ gem 'turbolinks'
 gem 'bootstrap'
 gem 'figaro'
 gem 'pry'
+gem 'bcrypt'
 
 group :development, :test do
   gem 'byebug'
