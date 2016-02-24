@@ -4,7 +4,7 @@ class UserSerializer < ActiveModel::Serializer
   def id
     object.id
   end
-  
+
   def name
     object.name
   end
@@ -14,6 +14,6 @@ class UserSerializer < ActiveModel::Serializer
   end
 
   def email
-    object.name
+    object.email
   end
 end
