@@ -1,5 +1,5 @@
 class ItemSerializer < ActiveModel::Serializer
-  attributes :id, :title, :body
+  attributes :id, :title, :body, :complete
 
   def id
     object.id
@@ -11,6 +11,10 @@ class ItemSerializer < ActiveModel::Serializer
 
   def body
     object.body
+  end
+
+  def complete
+    object.complete
   end 
 
 end

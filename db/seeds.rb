@@ -12,7 +12,7 @@ end
 20.times do
   List.create!(
   user: users.sample,
-  title: RandomData.random_sentence
+  title: RandomData.random_word
   )
 end
   lists = List.all
@@ -20,7 +20,7 @@ end
 50.times do
   Item.create!(
   list: lists.sample,
-  title: RandomData.random_sentence,
+  title: RandomData.random_word,
   body: RandomData.random_paragraph
   )
 end
